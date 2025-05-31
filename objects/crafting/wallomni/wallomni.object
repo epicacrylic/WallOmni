@@ -1,0 +1,28 @@
+{
+  "objectName": "wallomni",
+  "colonyTags": ["crafting"],
+  "rarity": "uncommon",
+  "printable": false,
+  "description": "All your crafting stations on the wall!",
+  "shortdescription": "^orange;Omnicrafter (Wall-Mounted)^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "price": 250,
+
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/scripted/xrc_omnicrafter/crafting.config",
+  "scripts": ["/objects/crafting/xrc_omnicrafter/crafting.lua"],
+  "retainObjectParametersInItem": true,
+  "itemTags": ["xrc_omnicrafter"],
+
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "image": "wallomni.png",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}

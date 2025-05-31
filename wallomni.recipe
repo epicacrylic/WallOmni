@@ -1,0 +1,5 @@
+{
+  "input" : ["xrc_omnicrafter","smallbattery"],
+  "output" : "wallomni",
+  "groups" : ["inventorstable","sb_craftingtable","craftingstations","all"]
+}
